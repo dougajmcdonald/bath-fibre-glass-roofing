@@ -1,8 +1,8 @@
 module.exports = {
   theme: {
     fontFamily: {
-      display: ['"Roboto slab"'],
-      body: ["Roboto"]
+      display: ['"IBM Plex Sans"'],
+      body: ["IBM Plex Sans"]
     },
     fontSize: {
       xs: "0.563rem" /*9px*/,

@@ -1,27 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby tailwind netlify cms starter`,
+    title: `Bath Fibre Glass Roofing`,
     author: `@dougajmcdonald`,
-    description: `Gatsby tailwind netlify cms starter`,
-    url: `https://github.com/dougajmcdonald/gatsby-tailwind-netlify-cms-starter`, // No trailing slash allowed!
+    description: `Bath Fibre Glass Roofing`,
+    url: `https://github.com/dougajmcdonald/bath-fibre-glass-roofing`, // No trailing slash allowed!
     image: `/favicon.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@dougajmcdonald`
   },
   plugins: [
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `markdown-pages`,
-        path: `${__dirname}/content/blog`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `blog-images`,
-        path: `${__dirname}/content/assets`
-      }
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -77,7 +63,6 @@ module.exports = {
         }
       }
     },
-    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {

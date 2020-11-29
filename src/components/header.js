@@ -10,23 +10,11 @@ const Header = () => {
     {
       route: `/`,
       text: `Home`
-    },
-    {
-      route: `/about`,
-      text: `About`
-    },
-    {
-      route: `/book`,
-      text: `Book`
-    },
-    {
-      route: `/contact-us`,
-      text: `Contact Us`
     }
   ]
   return (
     <header
-      className="bg-secondary font-display flex"
+      className="bg-grey- font-display flex"
       style={{ minHeight: `70px` }}
     >
       <div className="w-4/5 md:w-2/3 mx-auto py-4 flex flex-wrap items-center justify-between">
