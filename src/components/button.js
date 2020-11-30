@@ -4,8 +4,8 @@ import { Link } from "gatsby"
 const Button = ({ to, children }) => (
   <Link to={to}>
     <button
-      className="bg-tertiary rounded text-white font-bold font-body text-center my-10"
-      style={{ width: `200px`, height: `60px` }}
+      className="bg-primary rounded-full text-gray-800 font-bold font-body text-center my-10 px-4"
+      style={{ minWidth: `200px`, height: `48px` }}
     >
       {children}
     </button>

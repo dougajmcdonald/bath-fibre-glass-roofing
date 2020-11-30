@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 
 import NavLink from "../components/nav-link"
-import Logo from "../svg/logo.svg"
 
 const Header = () => {
   const [isExpanded, toggleExpansion] = useState(false)
@@ -14,13 +13,11 @@ const Header = () => {
   ]
   return (
     <header
-      className="bg-grey- font-display flex"
+      className="font-display flex bg-gray-800"
       style={{ minHeight: `70px` }}
     >
       <div className="w-4/5 md:w-2/3 mx-auto py-4 flex flex-wrap items-center justify-between">
-        <Link to="/">
-          <Logo />
-        </Link>
+        <h1 className="text-l text-gray-100 my-0">Bath fibre glass roofing</h1>
         <nav className="hidden md:block">
           {pages.map(page => (
             <NavLink key={page.text} to={page.route}>
