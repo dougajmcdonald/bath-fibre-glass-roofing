@@ -13,7 +13,8 @@ const IndexPage = () => (
     <Hero />
     <ImageBar />
     <Body>
-      <h1 className="text-center border-primary border-b-4 text-3xl font-bold">Why fibre glass?</h1>
+      <h2 className="text-center font-bold">Why fibre glass?</h2>
+      <span className="border-primary border-b-4 w-32 inline-block mx-auto mb-8"></span>
       <p className="text-l text-center">
         We feel fibre glass roofing systems are still the best product to choose with a proven history of durability and made to last.
       </p>

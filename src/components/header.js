@@ -1,51 +1,17 @@
-import { Link } from "gatsby"
-import React, { useState } from "react"
+import React from "react"
 
-import NavLink from "../components/nav-link"
+import Button from "../components/button"
 
 const Header = () => {
-  const [isExpanded, toggleExpansion] = useState(false)
-  const pages = [
-    {
-      route: `/`,
-      text: `Home`
-    }
-  ]
   return (
     <header
-      className="font-display flex bg-gray-800"
+      className="font-display flex bg-gray-800 fixed left-0 right-0 z-10"
       style={{ minHeight: `70px` }}
     >
       <div className="w-4/5 md:w-2/3 mx-auto py-4 flex flex-wrap items-center justify-between">
         <h1 className="text-l text-gray-100 my-0">Bath fibre glass roofing</h1>
-        <nav className="hidden md:block">
-          {pages.map(page => (
-            <NavLink key={page.text} to={page.route}>
-              {page.text}
-            </NavLink>
-          ))}
-        </nav>
-        <button
-          className="md:hidden text-white border-white border-2 rounded p-2"
-          onClick={() => toggleExpansion(!isExpanded)}
-        >
-          Menu
-        </button>
-        <nav
-          className={`${
-            isExpanded ? `block` : `hidden`
-          } md:hidden md:flex md:items-center mt-4 w-full md:w-auto border-t-2 border-white`}
-        >
-          {pages.map(page => (
-            <Link
-              className="block md:inline-block mt-4 md:mt-0 md:ml-6 no-underline text-white font-display hover:no-underline"
-              activeStyle={{ color: `#EE6C4D` }}
-              key={page.text}
-              to={page.route}
-            >
-              {page.text}
-            </Link>
-          ))}
+        <nav className="md:block">
+          <Button to={"/"}>Call us now 07966 232134</Button>
         </nav>
       </div>
     </header>

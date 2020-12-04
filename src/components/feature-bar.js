@@ -8,7 +8,7 @@ const FeatureBar = () => (
     <div className="w-4/5 md:w-2/3 mx-auto flex flex-row flex-wrap md:justify-between items-center">
       <div className="w-full md:w-1/2 flex flex-col items-center pr-4">
         <ClipboardList className="m-4"/>
-        <p className="text-l text-center">All work is fully gauranteed</p>
+        <p className="text-l text-center">All work is fully guaranteed</p>
       </div>
       <div className="w-full md:w-1/2 flex flex-col items-center pl-4">
         <Annotation className="m-4" />
