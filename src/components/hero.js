@@ -11,7 +11,7 @@ const Hero = () => (
           Welcome
         </h2>
         <p className="text-l md:text-xl">We have been working with fibre glass roofing systems since 1995 and carry out all types of roofing.</p>
-        <Button to={"/"} className="md:block hidden">Call us now 07966 232134</Button>
+        <Button to={"tel:07966232134"} className="md:block hidden">Call us now 07966 232134</Button>
       </div>
       <div className="w-full md:w-1/3 md:pt-10">
         <ul className="md:text-l text-base md:ml-4 md:mt-8">
