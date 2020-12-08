@@ -21,11 +21,3 @@ h2 {
 h3 {
   @apply text-l text-secondary font-display mt-8;
 }
-
-ul {
-  @apply ml-4 mt-8;
-}
-
-li {
-  @apply font-body mt-6 pl-4;
-}
