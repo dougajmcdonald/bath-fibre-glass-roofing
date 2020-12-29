@@ -16,30 +16,25 @@ const Header = () => (
       <section className="md:w-1/2 md:text-center text-white my-2 pt-6">
         <ul>
           <li>
-            <Phone className="w-4 h-4 mr-4 inline-block" />
+            <Website className="w-4 h-4 mr-4 my-2 inline-block" />
+            <a href="https://www.bathfibreglassroofing.com">
+              https://www.bathfibreglassroofing.com
+            </a>
+          </li>
+          <li>
+            <Email className="w-4 h-4 mr-4 my-2 inline-block" />
+            wj@bathfibreglassroofing.com
+          </li>
+          <li>
+            <Phone className="w-4 h-4 mr-4 my-2 inline-block" />
             01761 436692
           </li>
           <li>
-            <MobilePhone className="w-4 h-4 mr-4 inline-block" />
+            <MobilePhone className="w-4 h-4 mr-4 my-2 inline-block" />
             07966 232134
           </li>
         </ul>
       </section>
-      <section className="md:w-1/2 md:text-center my-2 pt-6">
-        <ul>
-          <li>
-            <Email className="w-4 h-4 mr-4 inline-block" />
-            wj@bathfibreglassroofing.com
-          </li>
-          <li>
-            <Website className="w-4 h-4 mr-4 inline-block" />
-            https://www.bathfibreglassroofing.com
-          </li>
-        </ul>
-      </section>
-      <span className="w-full text-center text-primary md:mt-8">
-        © {new Date().getFullYear()}
-      </span>
     </div>
   </footer>
 )
