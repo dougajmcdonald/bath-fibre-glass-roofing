@@ -13,7 +13,7 @@ const Header = () => (
         For more information or to make a general enquiry please contact us
         using the details below
       </span>
-      <section className="md:w-1/2 md:text-center text-white my-2 pt-6">
+      <section className="md:text-center text-white my-2 pt-6">
         <ul>
           <li>
             <Website className="w-4 h-4 mr-4 my-2 inline-block" />
