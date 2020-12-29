@@ -18,12 +18,14 @@ const Header = () => (
           <li>
             <Website className="w-4 h-4 mr-4 my-2 inline-block" />
             <a href="https://www.bathfibreglassroofing.com">
-              https://www.bathfibreglassroofing.com
+              https://www.bathfibreglassroofing.co.uk
             </a>
           </li>
           <li>
             <Email className="w-4 h-4 mr-4 my-2 inline-block" />
-            wj@bathfibreglassroofing.com
+            <a href="mailto:wj@bathfibreglassroofing.co.uk">
+              wj@bathfibreglassroofing.co.uk
+            </a>
           </li>
           <li>
             <Phone className="w-4 h-4 mr-4 my-2 inline-block" />
