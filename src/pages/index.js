@@ -14,15 +14,15 @@ const IndexPage = () => (
     <Hero />
     <ImageBar />
     <Body>
-      <h2 className="text-center font-bold">Why fibre glass?</h2>
+      <h2 className="text-center font-bold">Why fibreglass?</h2>
       <span className="border-primary border-b-4 w-32 inline-block mx-auto mb-8"></span>
       <p className="text-l text-center">
-        We feel fibre glass roofing systems are still the best product to choose
+        We feel fibreglass roofing systems are still the best product to choose
         with a proven history of durability and made to last.
       </p>
       <p className="text-l text-center">
-        Being tough and hard wearing, easily repaired if damaged, can be extened
-        and well exceeds its gaurantee.
+        Being tough and hard wearing, easily repaired if damaged, can be
+        extended and well exceeds its guarantee.
       </p>
     </Body>
     <FeatureBar />

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Bath Fibre Glass Roofing`,
+    title: `Bath Fibreglass Roofing`,
     author: `@dougajmcdonald`,
-    description: `Bath Fibre Glass Roofing`,
+    description: `Bath Fibreglass Roofing`,
     url: `https://github.com/dougajmcdonald/bath-fibre-glass-roofing`, // No trailing slash allowed!
     image: `/favicon.png`, // Path to your image you placed in the 'static' folder
     twitterUsername: `@dougajmcdonald`
